@@ -1,4 +1,7 @@
 # transform_pointcloud #
+
+Adaption from: https://github.com/timkambic/transform_pointcloud
+
 ROS nodelet that transforms pointcloud (`sensor_msgs/Pointcloud` or `sensor_msgs/Pointcloud`) to some other 
 TF frame (e.g. from "camera_frame" to "base_link"). It uses `sensor_msgs/point_cloud_conversion.h` for conversion.
 It will publish both `Pointcloud` and `Pointcloud2` messages for any input type (if any node is subscribed to it)
